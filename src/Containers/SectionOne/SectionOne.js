@@ -20,7 +20,7 @@ export default class SectionOne extends Component {
                                 <Button color="primary">Start your free trial</Button>
                             </div>
 
-                            <a href="#" className="btn text-primary">
+                            <a href="#" className="btn text-primary my-5">
                                 <FontAwesomeIcon icon={faPlayCircle} /> Watch intro video
                             </a>
                         </div>
