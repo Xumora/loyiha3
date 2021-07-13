@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet');
+
+h1,h2,h3,h4,h5,h6,p,.btn{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+
+ul{list-style: none;}
+
+.btn:focus, input:focus{
+    box-shadow: none !important;
+}
+
+body{
+    background-color: #000;
+}
+
+.btn{
+    font-weight: bold !important;
+}
+
+@media screen and (max-width: 991px) {
+    .img-box{
+        width: 26% !important;
+    }
+}
