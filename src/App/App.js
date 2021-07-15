@@ -5,14 +5,15 @@ import Footer from '../Containers/Footer/Footer';
 import SectionOne from '../Containers/SectionOne/SectionOne';
 import SectionTwo from '../Containers/SectionTwo/SectionTwo';
 import SectionThree from '../Containers/SectionThree/SectionThree';
+import Header from '../Containers/Header/Header';
 
 function App() {
   return (
     <div className="App">
+      <Header />
       <SectionOne />
       <SectionTwo />
       <SectionThree />
-      <hr />
       <Footer data={data} sl={sl} />
     </div>
   );

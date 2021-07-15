@@ -1,0 +1,21 @@
+header .btn{
+    font-weight: lighter !important;
+}
+
+header .container-fluid{
+    position: relative;
+}
+
+@media screen and (max-width:991px) {
+    #submenu{
+        position: absolute;
+        top: 75px;
+        left: 0;
+        border: 1px solid rgba(0, 0, 0, 0.125);
+        padding: 1rem;
+    }
+    .HB{margin: 0 auto;}
+    #submenu .btn{
+        display: block;
+    }
+}
